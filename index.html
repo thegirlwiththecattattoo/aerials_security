@@ -1,181 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Aerials Security — Human-layer security</title>
-  <meta name="description" content="Aerials Security is a cybersecurity training and consulting company focused on social engineering prevention.">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aerials Security — Human-Layer Security</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-<header class="site-header">
-  <a class="brand" href="#top" aria-label="Aerials Security home">
-    <span class="brand-dot"></span>
-    <span>Aerials Security</span>
-  </a>
+<header>
+  <a class="logo" href="#">● Aerials Security</a>
   <nav>
-    <a href="#services">Services</a>
-    <a href="#training">Training videos</a>
-    <a href="#keynotes">Keynotes</a>
-    <a href="#about">About</a>
-    <a class="nav-cta" href="#contact">Talk to us</a>
+    <a href="#platform">Platform</a><a href="#services">Services</a><a href="#process">How it works</a><a href="#about">About</a>
+    <a class="nav-btn" href="#contact">Talk to us</a>
   </nav>
-  <button class="menu-toggle" aria-label="Open menu">☰</button>
+  <button class="menu" aria-label="Menu">☰</button>
 </header>
 
-<main id="top">
-  <section class="hero">
-    <div class="hero-copy">
-      <div class="eyebrow">Human-layer security</div>
-      <h1>Hackers don't<br>break in.<br><span>They get let in.</span></h1>
-      <p>Aerials Security is a training and consulting company built by ethical hackers. We test, teach, and rehearse the one thing firewalls can't patch: the people answering the phone, opening the inbox, and approving the reset.</p>
-      <div class="hero-actions">
-        <a class="button primary" href="#contact">Book a social engineering test</a>
-        <a class="button secondary" href="#training">Watch a training clip</a>
-      </div>
-    </div>
-    <div class="field-stamp" aria-hidden="true">
-      <div class="stamp-inner">
-        <div class="stamp-ring-text">FIELD · TESTED · SECURITY · VERIFIED ·</div>
-        <strong>FIELD<br>VERIFIED</strong>
-      </div>
-    </div>
-  </section>
+<main>
+<section class="hero">
+  <div>
+    <div class="eyebrow"> SECURITY AWARENESS</div>
+    <h1>Turn your people into your <em>strongest defense.</em></h1>
+    <p>Cybersecurity training built around the human side of security. Teach employees to recognize attacks, test behavior with realistic simulations, and turn mistakes into measurable improvement.</p>
+    <div class="actions"><a class="btn primary" href="#contact">Build your security program</a><a class="btn ghost" href="#platform">Explore the platform</a></div>
+    <div class="proof"><span>TRAIN</span><span>SIMULATE</span><span>COACH</span><span>MEASURE</span></div>
+  </div>
+  <div class="stamp"><div><small>HUMAN · LAYER · SECURITY ·</small><strong>PEOPLE<br>READY</strong></div></div>
+</section>
 
-  <section class="services section" id="services">
-    <div class="section-kicker">What we do</div>
-    <h2>Five ways to find out how your people<br class="desktop"> would actually respond</h2>
-    <p class="section-intro">No slideshows nobody remembers. Every engagement is built around a real scenario, run against real employees, with a debrief they'll actually use.</p>
+<section id="platform" class="section platform">
+  <div class="kicker">THE PLATFORM</div>
+  <h2>Security awareness that goes beyond the compliance checkbox.</h2>
+  <p class="intro">Teach employees what an attack looks like, let them practice under realistic conditions, and use the results to make training smarter.</p>
+  <div class="grid">
+    <article class="feature dark"><b>01</b><i>🎓</i><h3>Security awareness lessons</h3><p>Short, story-driven training about phishing, passwords, social engineering, malware, and everyday security decisions.</p><label>LEARN</label></article>
+    <article class="feature"><b>02</b><i>🎣</i><h3>Phishing simulations</h3><p>Realistic simulated phishing attacks reveal where employees are vulnerable before a real attacker does.</p><label>SIMULATE</label></article>
+    <article class="feature"><b>03</b><i>🧠</i><h3>Phishing Defense Coaching</h3><p>Targeted follow-up training turns a failed simulation into a practical learning moment.</p><label>COACH</label></article>
+    <article class="feature"><b>04</b><i>🎮</i><h3>Gamified learning</h3><p>Interactive challenges and progress make security education more memorable and engaging.</p><label>ENGAGE</label></article>
+    <article class="feature"><b>05</b><i>🧪</i><h3>Threat simulations</h3><p>Hands-on scenarios help employees practice thinking like an attacker.</p><label>PRACTICE</label></article>
+    <article class="feature"><b>06</b><i>📊</i><h3>Reporting & insights</h3><p>Track completion, phishing compromise rates, behavior trends, and improvement.</p><label>MEASURE</label></article>
+    <article class="feature"><b>07</b><i>✏️</i><h3>Custom training creation</h3><p>Create organization-specific lessons, videos, quizzes, assignments, and scenarios.</p><label>CUSTOMIZE</label></article>
+    <article class="feature"><b>08</b><i>🤖</i><h3>Threat-intelligence-driven content</h3><p>Keep awareness content informed by real-world threats and attack patterns.</p><label>ADAPT</label></article>
+  </div>
+</section>
 
-    <div class="service-grid">
-      <!-- <article class="card" id="training">
-        <span class="tag">REEL</span>
-        <h3>Security awareness training videos</h3>
-        <p>Two-to-three minute musical and spoken modules on phishing, ransomware, passwords, and MFA — written to get stuck in someone's head, not skipped through.</p>
-        <ul>
-          <li>Built for LMS rollout or standalone use</li>
-          <li>New topics added on a rolling basis</li>
-          <li>Watched, not tolerated</li>
-        </ul>
-      </article> -->
+<section id="process" class="section process">
+  <div class="kicker">HOW IT WORKS</div><h2>Make security behavior measurable.</h2>
+  <div class="steps">
+    <div><span>01</span><h3>Teach</h3><p>Give employees concise lessons on modern attacks and safer decisions.</p></div>
+    <div><span>02</span><h3>Test</h3><p>Run realistic phishing and threat simulations.</p></div>
+    <div><span>03</span><h3>Coach</h3><p>Turn mistakes into targeted learning and feedback.</p></div>
+    <div><span>04</span><h3>Improve</h3><p>Measure behavior and continuously strengthen your human defense.</p></div>
+  </div>
+</section>
 
-      <article class="card">
-        <span class="tag">LIVE</span>
-        <h3>Live social engineering training</h3>
-        <p>Interactive, role-based workshops where teams practice spotting and shutting down a pretext in real time, not just reading about one.</p>
-        <ul>
-          <li>Scenario-based, not lecture-based</li>
-          <li>Tailored to your team's actual workflows</li>
-          <li>Run in person or remote</li>
-        </ul>
-      </article>
+<section id="services" class="section services">
+  <div class="kicker">BEYOND THE PLATFORM</div><h2>From employee training to real-world defense.</h2>
+  <div class="service-grid">
+    <article><span>LIVE</span><h3>Social engineering training</h3><p>Role-based workshops where teams practice spotting and stopping pretexts.</p></article>
+    <article><span>PEN</span><h3>Social engineering penetration testing</h3><p>Simulated attacks across email, phone, SMS, chat, social media, and account takeover scenarios.</p></article>
+    <article><span>STAGE</span><h3>Keynotes & live hacking demos</h3><p>High-energy security talks, live pretext calls, and AI deepfake demonstrations.</p></article>
+    <article><span>OPS</span><h3>Workshops & protocol updates</h3><p>OSINT and pretexting exercises that strengthen identity verification and internal processes.</p></article>
+  </div>
+</section>
 
-      <article class="card">
-        <span class="tag">PEN</span>
-        <h3>Social engineering penetration testing</h3>
-        <p>Simulated attacks across phone, email, chat, SMS, social media, and account takeover attempts — run the way a real adversary would run them.</p>
-        <ul>
-          <li>Custom pretexts built for your organization</li>
-          <li>Executive-ready reporting, not a raw log dump</li>
-          <li>Findings mapped to what to fix first</li>
-        </ul>
-      </article>
+<section id="about" class="about">
+  <div class="profile"><div class="avatar">GV</div><h3>Gabi V</h3><small>FOUNDER · ETHICAL HACKER</small><p>Aerials Security brings an attacker-minded perspective to security education and human behavior.</p></div>
+  <div><div class="kicker">WHY AERIALS</div><h2>Technology protects systems. People protect decisions.</h2><p>We combine awareness training, phishing simulations, coaching, threat simulations, reporting, consulting, and social engineering testing.</p><p>The goal is simple: replace passive compliance with <strong>practice, feedback, and measurable improvement.</strong></p></div>
+</section>
 
-      <article class="card" id="keynotes">
-        <span class="tag">STAGE</span>
-        <h3>Keynotes &amp; live hacking demos</h3>
-        <p>High-energy talks for conferences and company events, including live pretext calls and AI deepfake demonstrations that show trust being exploited in real time.</p>
-        <ul>
-          <li>Built for all-hands, kickoffs, and conferences</li>
-          <li>Deepfake and voice-clone demonstrations</li>
-          <li>Leaves a room talking, not checked out</li>
-        </ul>
-      </article>
-
-      <article class="card">
-        <span class="tag">OPS</span>
-        <h3>Workshops &amp; protocol updates</h3>
-        <p>Hands-on sessions — including OSINT and pretexting capture-the-flag exercises — to rebuild identity verification protocols and close account takeover gaps.</p>
-        <ul>
-          <li>OSINT / pretexting CTFs for internal teams</li>
-          <li>Identity verification protocol reviews</li>
-          <li>Practical rewrites, not just recommendations</li>
-        </ul>
-      </article>
-    </div>
-  </section>
-
-  <section class="about section" id="about">
-    <div class="profile-card">
-      <div class="avatar">GV</div>
-      <h3>Gabi V</h3>
-      <div class="role">Co-founder, ethical hacker</div>
-      <p>Gabi has spent her career getting into places she wasn't supposed to be — buildings, inboxes, phone systems — so that the people who work there don't have to learn the hard way.</p>
-      <p>She founded Aerials Security to put that same tradecraft to work on the other side of the table.</p>
-    </div>
-    <div class="about-copy">
-      <p>Aerials Security was co-founded by ethical hackers who got tired of watching companies pour their security budget into tools while the actual break-in happened over the phone.</p>
-      <p>So we built the company around the part of security most vendors treat as an afterthought: <strong>the people.</strong> Not with compliance videos nobody finishes, but with live simulations, real pretexts, and training built to be remembered rather than clicked through.</p>
-      <p>Every engagement — training, testing, or a keynote in front of a thousand people — is run by people who've done this work in the field, not read about it in a slide deck.</p>
-    </div>
-  </section>
-
-  <section class="contact" id="contact">
-    <div class="contact-wrap">
-      <div class="contact-copy">
-        <h2>Find your weak link before<br>someone else does</h2>
-        <p>Tell us what you're working with — a training rollout, a penetration test, or a keynote — and we'll get back to you within two business days.</p>
-        <div class="contact-detail">
-          <span>Email</span>
-          <a href="mailto:hello@aerialssecurity.com">hello@aerialssecurity.com</a>
-        </div>
-        <div class="contact-detail">
-          <span>Based in</span>
-          <p>Remote-first, engagements worldwide</p>
-        </div>
-      </div>
-
-      <!-- <form class="contact-form" onsubmit="event.preventDefault(); alert('Thanks! Your message is ready to be connected to Aerials Security.');">
-        <label>Name
-          <input type="text" placeholder="Your name" required>
-        </label>
-        <label>Work email
-          <input type="email" placeholder="you@company.com" required>
-        </label>
-        <label>What are you looking for?
-          <select>
-            <option>Security awareness training videos</option>
-            <option>Live social engineering training</option>
-            <option>Social engineering penetration testing</option>
-            <option>Keynote or live hacking demo</option>
-            <option>Workshops & protocol updates</option>
-          </select>
-        </label>
-        <label>Tell us about your team
-          <textarea placeholder="Team size, timeline, what's prompted the ask"></textarea>
-        </label>
-        <button class="button primary" type="submit">Send message</button>
-      </form> -->
-    </div>
-  </section>
+<section id="contact" class="cta">
+  <div class="kicker">// BUILD HUMAN RESILIENCE</div><h2>Train your people. Test your defenses. Improve before the real attack.</h2>
+  <p>Bring Aerials Security into your awareness program, phishing simulations, social engineering testing, or next company event.</p>
+  <a class="btn primary" href="mailto:hello@aerialssecurity.com">START A CONVERSATION</a>
+</section>
 </main>
-
-<footer>
-  <span>© 2026 Aerials Security</span>
-  <span>Human-layer security for modern teams.</span>
-</footer>
-
-<!-- <script>
-  const toggle = document.querySelector('.menu-toggle');
-  const nav = document.querySelector('nav');
-  toggle.addEventListener('click', () => nav.classList.toggle('open'));
-  document.querySelectorAll('nav a').forEach(link => {
-    link.addEventListener('click', () => nav.classList.remove('open'));
-  });
-</script> -->
+<footer>© 2026 Aerials Security <span>Human-layer security for modern teams.</span></footer>
+<script>
+document.querySelector('.menu').onclick=()=>document.querySelector('nav').classList.toggle('open');
+</script>
 </body>
 </html>
